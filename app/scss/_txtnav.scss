@@ -1,0 +1,13 @@
+#nav {
+  .textNav {
+    background: $color-card-borders;
+    font-size: 1rem;
+    a {
+      color: white;
+      &:hover {
+        background: white;
+        color: black;
+      }
+    }
+  }
+}

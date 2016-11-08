@@ -8,7 +8,7 @@ render() {
         <input type="text" placeholder="Last Name" value="" />
         <input type="text" placeholder="User Name" value="" />
         <input type="password" placeholder="Password" value="" />
-        <input type="submit" value="Submit" />
+        <input type="submit" className="submit" value="Submit" />
       </form>
     )
   }

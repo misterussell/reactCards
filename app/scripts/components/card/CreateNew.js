@@ -10,7 +10,7 @@ export default React.createClass({
         <input type="text" placeholder="Weakness" value="" />
         <input type="number" placeholder="HP" value="" />
         <input type="text" placeholder="Image link" value="" />
-        <input type="submit" value="Submit" />
+        <input type="submit" className="submit" value="Submit" />
       </form>
     );
   }

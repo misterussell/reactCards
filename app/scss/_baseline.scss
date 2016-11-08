@@ -26,9 +26,46 @@ a {
 
 img {
   width: 100%;
-  border-bottom: solid .1rem $color-card-borders;
+  border: solid .1rem $color-card-borders;
+  border-radius: .25rem;
+  box-sizing: border-box;
 }
 
 h1, h2 {
   font-family: 'Inconsolata', monospace;
+}
+
+form {
+  width: 20%;
+  margin: 1rem auto;
+  input {
+    display: block;
+    width: 100%;
+    margin: .25rem auto;
+    box-sizing: border-box;
+  }
+  .submit {
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    background: $color-card-borders;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+  }
+}
+
+.createButton {
+  button {
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    background: $color-card-borders;
+    width: 15%;
+    margin: 0 auto;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+
+  }
 }
