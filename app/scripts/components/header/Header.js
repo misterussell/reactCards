@@ -4,7 +4,7 @@ export default React.createClass({
   render() {
     return (
       <h1>
-        Mock Trading Card Game
+        Robot Robot Robot!
       </h1>
     );
   }

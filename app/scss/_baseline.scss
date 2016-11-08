@@ -5,6 +5,7 @@ body {
   font-family: 'Slabo 27px', serif;
   font-size: 62.5%;
   text-align: center;
+  box-sizing: border-box;
 }
 
 ul {
@@ -21,4 +22,13 @@ li {
 a {
   text-decoration: none;
   color: black;
+}
+
+img {
+  width: 100%;
+  border-bottom: solid .1rem $color-card-borders;
+}
+
+h1, h2 {
+  font-family: 'Inconsolata', monospace;
 }

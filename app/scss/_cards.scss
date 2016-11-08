@@ -1,0 +1,19 @@
+.cards {
+  .singleCard {
+    width: 15%;
+    height: 25%;
+    border: solid .1rem $color-card-borders;
+    margin: .25rem;
+    .card {
+      .bio {
+        display: none;
+      }
+    }
+  }
+}
+
+#main .card{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
